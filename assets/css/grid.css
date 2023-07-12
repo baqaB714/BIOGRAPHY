@@ -566,6 +566,7 @@ body {
         position: relative;
         appearance: none;
         -webkit-appearance: none;
+        transition: all 400ms ease;
     }
 
     .checkBtn::before {
@@ -577,7 +578,7 @@ body {
     }
 
     .checkBtn:checked::before {
-        content: '\f0c9';
+        content: '\f00d';
     }
 
     .nav ol {
@@ -585,7 +586,7 @@ body {
         flex-direction: column;
         width: 100%;
         background: var(--bg);
-        top: 50px;
+        top: 55px;
         right: 0;
         z-index: 100;
         padding: 1.2em;
