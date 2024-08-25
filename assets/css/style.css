@@ -92,3 +92,12 @@ body , html{
 
 }
 
+@keyframes rotate30deg {
+  0% { transform: rotate(-30deg);}
+  50% {  transform: rotate(30deg);}
+  100% {  transform: rotate(-30deg);} 
+}
+
+.pandol {
+  animation: rotate30deg 2s ease infinite;
+}
